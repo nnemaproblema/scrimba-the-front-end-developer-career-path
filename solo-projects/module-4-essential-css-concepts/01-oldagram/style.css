@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 16px 8px 17px;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.horizontal-line {
+    height: 0;
+    border: 0.5px solid #c6c6c6;
+}
+
+.img-user-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 4px 15px;
+}
+
+.img-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.img-post {
+    width: 100%;
+}
+
+.interaction {
+    margin: 15px 10px 10px 10px;
+}
+
+.interaction img {
+    width: 30px;
+    margin-right: 16px;
+}
+
+.interaction img:hover {
+    opacity: 0.3;
+}
+
+.interaction ~ p {
+    margin: 12px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*
+js mevzularına girişeceğim
+*/
